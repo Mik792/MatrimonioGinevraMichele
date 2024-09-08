@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrimonio Ginevra & Michele</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sezione Home -->
+    <section id="home">
+        <header>
+            <h1>Matrimonio di Ginevra & Michele</h1>
+            <p>Unitevi a noi per il giorno più speciale della nostra vita!</p>
+        </header>
+        <div class="countdown">
+            <h2>Il grande giorno sarà tra:</h2>
+            <p id="timer"></p>
+        </div>
+        <a href="#rsvp" class="btn">Conferma la tua presenza</a>
+    </section>
+
+    <!-- Sezione Evento -->
+    <section id="evento">
+        <h2>Dettagli dell'evento</h2>
+        <p>Data: 15 Settembre 2024</p>
+        <p>Luogo: Villa dei Fiori, Bologna</p>
+        <p>Programma dell'evento:</p>
+        <ul>
+            <li>Cerimonia: 16:00</li>
+            <li>Ricevimento: 18:00</li>
+        </ul>
+        <iframe src="https://www.google.com/maps/embed?..." frameborder="0" style="border:0;" allowfullscreen></iframe>
+    </section>
+
+    <!-- Sezione Come raggiungere l'evento -->
+    <section id="come-raggiungere">
+        <h2>Come raggiungere l'evento</h2>
+        <p>La Villa dei Fiori è situata a Bologna, a pochi minuti dal centro città.</p>
+        <p>Ecco come raggiungerla in auto o con i mezzi pubblici:</p>
+        <ul>
+            <li><strong>Auto:</strong> Parcheggio disponibile vicino alla villa.</li>
+            <li><strong>Treno:</strong> La stazione di Bologna Centrale dista 15 minuti.</li>
+        </ul>
+        <a href="https://www.google.com/maps/dir/..." target="_blank" class="btn">Apri in Google Maps</a>
+    </section>
+
+    <!-- Sezione RSVP -->
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="presenza">Confermi la tua presenza?</label>
+            <select id="presenza" name="presenza" required>
+                <option value="si">Sì</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="messaggio">Messaggio per gli sposi:</label>
+            <textarea id="messaggio" name="messaggio"></textarea>
+
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+
+    <!-- Sezione Viaggio di nozze -->
+    <section id="viaggio-nozze">
+        <h2>Viaggio di nozze</h2>
+        <p>Dopo il matrimonio, partiremo per una luna di miele indimenticabile verso le Maldive!</p>
+        <p>Se desideri contribuire, puoi visitare la nostra lista nozze qui:</p>
+        <a href="https://lista-nozze.com/ginevra-michele" class="btn">Vai alla lista nozze</a>
+    </section>
+
+    <footer>
+        <p>© 2024 Matrimonio Ginevra & Michele</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
