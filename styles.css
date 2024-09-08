@@ -1,8 +1,8 @@
+/* Font più elegante e titolo in corsivo */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     background-color: #f5f5f5;
     color: #333;
 }
@@ -15,9 +15,45 @@ header {
 
 h1 {
     font-size: 3em;
-    color: #fff;
+    color: #333;
+    font-style: italic;
+    background-color: #f0b3c8;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
 }
 
+h1 span {
+    color: #f07a89;
+}
+
+.banner {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-link {
+    color: #f07a89;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Divider elegante */
+.divider {
+    width: 80%;
+    height: 2px;
+    background-color: #ccc;
+    margin: 40px auto;
+}
+
+/* Sezione evento, font elegante e layout */
 section {
     padding: 40px;
     text-align: center;
