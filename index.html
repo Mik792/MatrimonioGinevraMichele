@@ -46,7 +46,9 @@
             <li>Festa</li>
         </ul>
         <p>La villa dispone di ampio parcheggio, per cui sarà possibile parcheggiare direttamente lì.</p>
-        <iframe src="https://www.google.com/maps/embed?..." frameborder="0" style="border:0;" allowfullscreen></iframe>
+        <p>Dress code: formale elegante, preferibilmente colori pastello.</p>
+        <iframe src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Via+Sant'Andrea,+61,+40064+Ozzano+dell'Emilia,+BO" frameborder="0" style="border:0;" allowfullscreen></iframe>
+        <img src="villa-massei.jpg" alt="Villa Massei" class="villa-image">
     </section>
 
     <!-- Divider -->
@@ -72,10 +74,18 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="presenza">Confermi la tua presenza?</label>
-            <select id="presenza" name="presenza" required>
-                <option value="si">Sì</option>
-                <option value="no">No</option>
+            <label for="persone">Quante persone prenoti?</label>
+            <input type="number" id="persone" name="persone" min="1" required>
+
+            <label for="nomi">Inserisci i nomi delle persone:</label>
+            <textarea id="nomi" name="nomi" required></textarea>
+
+            <label for="menu">Menù:</label>
+            <select id="menu" name="menu" required>
+                <option value="onnivoro">Onnivoro</option>
+                <option value="vegetariano">Vegetariano</option>
+                <option value="vegano">Vegano</option>
+                <option value="ciliaco">Celiaco</option>
             </select>
 
             <label for="messaggio">Messaggio per gli sposi:</label>
