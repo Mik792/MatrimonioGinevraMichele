@@ -1,6 +1,6 @@
 /* Stile generale */
 body {
-    font-family: 'Bradley Hand ITC', cursive;
+    font-family: 'Vladimir Script', cursive;
     background-color: #fff8f0; /* Sfondo bianco con sfumatura rosa */
     color: #333;
     margin: 0;
@@ -27,7 +27,7 @@ body {
 }
 
 .navbar ul li a {
-    font-family: 'Bradley Hand ITC', cursive;
+    font-family: 'Vladimir Script', cursive;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
@@ -60,7 +60,7 @@ body {
 }
 
 #home h1 {
-    font-family: 'Bradley Hand ITC', cursive;
+    font-family: 'Vladimir Script', cursive;
     font-size: 4em;
     color: #fff; /* Mantieni il testo bianco per visibilità */
     margin-bottom: 30px;
