@@ -45,7 +45,7 @@ body {
 
 /* Sezione Home con immagine di sfondo */
 #home {
-    background: url('main/FotoRituale.jfif') no-repeat center center/cover;
+    background: url('IMG-20240630-WA0004.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
