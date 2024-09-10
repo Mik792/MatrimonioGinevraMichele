@@ -43,9 +43,10 @@ body {
     color: #333;
 }
 
-/* Sezione Home con immagine di sfondo */
+/* Sezione Home con immagine di sfondo centrata */
 #home {
-    background: url('IMG-20240630-WA0004.jpg') no-repeat center center/cover;
+    background: url('IMG-20240630-WA0004.jpg') no-repeat center center;
+    background-size: cover; /* Copre l'intero schermo mantenendo le proporzioni */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -55,12 +56,13 @@ body {
     color: #000;
     padding: 20px;
     position: relative;
+    background-color: #f7ebe1; /* Colore che corrisponde allo sfondo della foto */
 }
 
 #home h1 {
     font-family: 'Bradley Hand ITC', cursive;
     font-size: 4em;
-    color: #fff; /* Cambia il colore del testo per visibilità */
+    color: #fff; /* Mantieni il testo bianco per visibilità */
     margin-bottom: 30px;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Aggiunge ombra per visibilità */
 }
