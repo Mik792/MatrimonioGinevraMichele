@@ -43,10 +43,10 @@ body {
     color: #333;
 }
 
-/* Sezione Home con immagine di sfondo centrata */
+/* Sezione Home con immagine di sfondo ridotta */
 #home {
     background: url('IMG-20240630-WA0004.jpg') no-repeat center center;
-    background-size: cover; /* Copre l'intero schermo mantenendo le proporzioni */
+    background-size: 70%; /* Riduce la dimensione dell'immagine del 30% */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -58,6 +58,7 @@ body {
     position: relative;
     background-color: #f7ebe1; /* Colore che corrisponde allo sfondo della foto */
 }
+
 
 #home h1 {
     font-family: 'Vladimir Script', cursive;
