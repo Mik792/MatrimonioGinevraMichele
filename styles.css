@@ -54,14 +54,15 @@ body {
     text-align: center;
     color: #000;
     padding: 20px;
+    position: relative;
 }
 
 #home h1 {
     font-family: 'Bradley Hand ITC', cursive;
     font-size: 4em;
-    color: #333;
+    color: #fff; /* Cambia il colore del testo per visibilità */
     margin-bottom: 30px;
-    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.7);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Aggiunge ombra per visibilità */
 }
 
 .buttons {
