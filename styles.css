@@ -9,10 +9,10 @@ body {
 
 /* Barra di navigazione */
 .navbar {
-    background-color: #333333; /* Nero chiaro */
+    background-color: #ffffff; /* Bianco */
     padding: 10px 0;
     text-align: center;
-    border-bottom: 2px solid #e9967a; /* Bordo arancione */
+    border-bottom: 2px solid #e9967a; /* Bordo arancione pastello */
 }
 
 .navbar ul {
@@ -27,20 +27,20 @@ body {
 }
 
 .navbar ul li a {
-    font-family: 'Vladimir Script', cursive;
+    font-family: 'Bradley Hand ITC', cursive;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
-    font-size: 1.2em; /* Caratteri più piccoli */
+    color: #333333; /* Testo scuro per contrastare con la barra bianca */
+    font-size: 1.2em; /* Dimensione leggermente ridotta */
     padding: 8px 15px;
     border-radius: 20px;
-    background-color: #f17b5d; /* Arancione pastello */
-    transition: background-color 0.3s ease;
+    background-color: #f17b5d; /* Colore arancione pastello */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar ul li a:hover {
-    background-color: #ffdab9; /* Più chiaro al passaggio del mouse */
-    color: #333;
+    background-color: #ffdab9; /* Colore rosa pastello più chiaro al passaggio del mouse */
+    color: #333333; /* Colore scuro anche al passaggio del mouse */
 }
 
 /* Sezione Home con immagine di sfondo ridotta */
