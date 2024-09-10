@@ -27,7 +27,7 @@ body {
 }
 
 .navbar ul li a {
-    font-family: 'Bradley Hand ITC', cursive;
+    font-family: 'Vladimir Script', cursive;
     text-transform: uppercase;
     text-decoration: none;
     color: #333333; /* Testo scuro per contrastare con la barra bianca */
@@ -60,7 +60,7 @@ body {
 }
 
 #home h1 {
-    font-family: 'Bradley Hand ITC', cursive;
+    font-family: 'Vladimir Script', cursive;
     font-size: 4em;
     color: #fff; /* Manteniamo il testo bianco per la visibilità */
     margin-bottom: 30px;
@@ -110,7 +110,7 @@ body {
 }
 
 .navbar ul li a {
-    font-family: 'Bradley Hand ITC', cursive;
+    font-family: 'Vladimir Script', cursive;
     text-transform: uppercase;
     text-decoration: none;
     color: #333333; /* Testo scuro per contrastare con lo sfondo chiaro */
