@@ -21,7 +21,8 @@
 
     <!-- Sezione RSVP -->
     <section id="rsvp">
-        <form>
+        <h2>RSVP</h2>
+        <form action="https://formspree.io/f/xblrbnkq" method="POST">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
 
@@ -39,6 +40,9 @@
                 <option value="ciliaco">Celiaco</option>
                 <option value="altro">Altro</option>
             </select>
+
+            <label for="messaggio">Messaggio per gli sposi:</label>
+            <textarea id="messaggio" name="messaggio"></textarea>
 
             <button type="submit">Invia</button>
         </form>
