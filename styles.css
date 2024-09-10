@@ -1,7 +1,7 @@
 /* Stile generale */
 body {
     font-family: 'Vladimir Script', cursive;
-    background-color: #fff8f0; /* Sfondo bianco con sfumatura rosa */
+    background-color: #f2f2f2; /* Sfondo bianco con sfumatura rosa */
     color: #333;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 /* Barra di navigazione */
 .navbar {
-    background-color: #ffffff; /* Bianco */
+    background-color: #f2f2f2; /* Bianco */
     padding: 10px 0;
     text-align: center;
     border-bottom: 2px solid #e9967a; /* Bordo arancione pastello */
@@ -56,7 +56,7 @@ body {
     color: #000;
     padding: 20px;
     position: relative;
-    background-color: #f8f5f2; /* Colore di sfondo simile al bianco della foto */
+    background-color: #f2f2f2; /* Colore di sfondo simile al bianco della foto */
 }
 
 #home h1 {
@@ -85,7 +85,7 @@ body {
 }
 
 .buttons .btn:hover {
-    background-color: #ffdab9; /* Rosa pastello */
+    background-color: #ffe6ff; /* Rosa */
     color: #333;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
 }
@@ -130,7 +130,7 @@ body {
 .divider {
     width: 80%;
     height: 2px;
-    background-color: #e9967a;
+    background-color: #ffe6ff;
     margin: 50px auto;
     opacity: 0.7;
 }
@@ -193,7 +193,7 @@ form button:hover {
 
 /* Footer */
 footer {
-    background-color: #f4b5a1;
+    background-color: #ffe6ff;
     padding: 30px 0;
     text-align: center;
     color: white;
