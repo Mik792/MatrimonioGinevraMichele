@@ -46,7 +46,7 @@ body {
 /* Sezione Home con immagine di sfondo ridotta */
 #home {
     background: url('IMG-20240630-WA0004.jpg') no-repeat center center;
-    background-size: 70%; /* Riduce la dimensione dell'immagine del 30% */
+    background-size: 50%; /* Riduce la dimensione dell'immagine del 50% */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -56,14 +56,13 @@ body {
     color: #000;
     padding: 20px;
     position: relative;
-    background-color: #f7ebe1; /* Colore che corrisponde allo sfondo della foto */
+    background-color: #f8f5f2; /* Colore di sfondo simile al bianco della foto */
 }
 
-
 #home h1 {
-    font-family: 'Vladimir Script', cursive;
+    font-family: 'Bradley Hand ITC', cursive;
     font-size: 4em;
-    color: #fff; /* Mantieni il testo bianco per visibilità */
+    color: #fff; /* Manteniamo il testo bianco per la visibilità */
     margin-bottom: 30px;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Aggiunge ombra per visibilità */
 }
@@ -75,7 +74,7 @@ body {
 .buttons .btn {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #e9967a; /* Arancione pastello */
+    background-color: #f17b5d; /* Arancione pastello */
     color: white;
     text-decoration: none;
     border-radius: 25px;
@@ -86,9 +85,45 @@ body {
 }
 
 .buttons .btn:hover {
-    background-color: #f4b5a1; /* Rosa pastello */
+    background-color: #ffdab9; /* Rosa pastello */
     color: #333;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Barra di navigazione */
+.navbar {
+    background-color: #f8f5f2; /* Colore simile al bianco della foto */
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #f17b5d; /* Bordo arancione pastello */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    font-family: 'Bradley Hand ITC', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333333; /* Testo scuro per contrastare con lo sfondo chiaro */
+    font-size: 1.2em; /* Dimensione leggermente ridotta */
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #f8f5f2; /* Stesso colore della barra di navigazione */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #ffdab9; /* Colore rosa pastello al passaggio del mouse */
+    color: #333333; /* Colore scuro anche al passaggio del mouse */
 }
 
 /* Divider elegante */
