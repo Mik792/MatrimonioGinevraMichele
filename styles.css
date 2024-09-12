@@ -57,16 +57,7 @@ body {
     background-color: #f2f2f2;
 }
 
-/* Titolo della home */
-#home h1 {
-    font-family: 'Vladimir Script', cursive;
-    font-size: 4em;
-    color: #fff;
-    margin-bottom: 30px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-}
-
-/* Barra scura e trasparente sotto la scritta principale */
+/* Barra scura e trasparente con la scritta principale */
 .transparent-bar {
     background-color: rgba(0, 0, 0, 0.5); /* Barra scura e trasparente */
     color: #ffffff;
@@ -74,8 +65,17 @@ body {
     border-radius: 10px;
     text-align: center;
     width: 80%;
-    margin: 20px auto; /* Centra la barra */
+    margin: 20px auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Aggiunge un'ombra per effetto di profondità */
+}
+
+/* Stile del titolo "Matrimonio di Ginevra & Michele" */
+.transparent-bar h1 {
+    font-family: 'Vladimir Script', cursive;
+    font-size: 4em;
+    color: #fff; /* Testo bianco */
+    margin: 0;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Ombra per visibilità */
 }
 
 /* Stile della scritta di benvenuto */
@@ -83,6 +83,105 @@ body {
     font-size: 1.8em;
     color: #ffffff; /* Testo bianco */
     margin-top: 10px;
-    font-style: 'Goudy Old Style', cursive;
-    text-align: center; /* Assicura che il testo sia centrato */
-    width: 100
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+}
+
+/* Bottoni in home */
+.buttons .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ffe6ff; /* Rosa chiaro */
+    color: #333333; /* Scritte nere */
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px;
+    font-size: 1.2em;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buttons .btn:hover {
+    background-color: #ff5c8a; /* Rosa scuro al passaggio del mouse */
+    color: #ffffff;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Divider elegante */
+.divider {
+    width: 80%;
+    height: 2px;
+    background-color: #ffe6ff;
+    margin: 50px auto;
+    opacity: 0.7;
+}
+
+/* Mappa e Immagini */
+#come-arrivare img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#come-arrivare iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form RSVP */
+form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+form label {
+    display: block;
+    margin: 20px 0 10px;
+    font-size: 1.3em;
+}
+
+form input, form select, form textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+}
+
+form button {
+    padding: 15px 30px;
+    background-color: #e9967a;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.3em;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f4b5a1;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+    background-color: #ffe6ff;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    font-family: 'Bradley Hand ITC', cursive;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 2px solid #e9967a;
+}
