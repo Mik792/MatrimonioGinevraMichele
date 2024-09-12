@@ -30,7 +30,7 @@ body {
     font-family: 'Vladimir Script', cursive;
     text-decoration: underline;
     color: #333333;
-    font-size: 1.2em;
+    font-size: 13px; /* Font size 13px per la barra di navigazione */
     padding: 8px 15px;
     background-color: #f2f2f2;
     border-radius: 20px;
@@ -80,7 +80,7 @@ body {
 
 /* Stile della scritta di benvenuto */
 .welcome-message {
-    font-size: 5.8em;
+    font-size: 13px; /* Font size 13px per il messaggio di benvenuto */
     color: #ffffff; /* Testo bianco */
     margin-top: 10px;
     font-style: italic;
