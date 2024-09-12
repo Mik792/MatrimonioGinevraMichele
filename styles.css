@@ -67,6 +67,26 @@ body {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
+/* Barra scura e trasparente sotto la scritta principale */
+.transparent-bar {
+    background-color: rgba(0, 0, 0, 0.5); /* Barra scura e trasparente */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto; /* Centra la barra */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Aggiunge un'ombra per effetto di profondità */
+}
+
+/* Stile della scritta di benvenuto */
+.welcome-message {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-top: 10px;
+    font-style: italic;
+}
+
 /* Frase di benvenuto */
 .welcome-message {
     font-size: 1.8em;
