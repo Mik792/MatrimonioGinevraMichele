@@ -28,7 +28,6 @@ body {
 
 .navbar ul li a {
     font-family: 'Vladimir Script', cursive;
-    text-transform: uppercase;
     text-decoration: underline; /* Sottolinea i bottoni della barra */
     color: #333333; /* Testo scuro */
     font-size: 1.2em;
@@ -79,7 +78,7 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Aggiunge un'ombra per effetto di profondità */
 }
 
-/* Stile della scritta di benvenuto */
+/* Stile della scritta di benvenuto -------------------------------------*/
 .welcome-message {
     font-size: 1.5em;
     color: #ffffff;
