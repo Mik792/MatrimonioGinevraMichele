@@ -9,7 +9,7 @@ body {
 
 /* Barra di navigazione */
 .navbar {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; /* Colore della barra */
     padding: 10px 0;
     text-align: center;
     border-bottom: 2px solid #e9967a;
@@ -29,18 +29,18 @@ body {
 .navbar ul li a {
     font-family: 'Vladimir Script', cursive;
     text-transform: uppercase;
-    text-decoration: none;
-    color: #333333;
+    text-decoration: underline; /* Sottolinea i bottoni della barra */
+    color: #333333; /* Testo scuro */
     font-size: 1.2em;
     padding: 8px 15px;
+    background-color: #f2f2f2; /* Stesso colore della barra */
     border-radius: 20px;
-    background-color: #F2DAFF;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar ul li a:hover {
     background-color: #ff5c8a; /* Colore rosa scuro al passaggio del mouse */
-    color: #ffffff; /* Colore testo bianco al passaggio del mouse */
+    color: #ffffff;
 }
 
 /* Sezione Home con immagine di sfondo ridotta */
@@ -82,7 +82,7 @@ body {
     display: inline-block;
     padding: 12px 20px;
     background-color: #ffe6ff; /* Rosa chiaro */
-    color: white;
+    color: #333333; /* Scritte nere */
     text-decoration: none;
     border-radius: 25px;
     margin: 10px;
