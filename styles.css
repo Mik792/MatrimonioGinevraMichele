@@ -78,22 +78,15 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Aggiunge un'ombra per effetto di profondità */
 }
 
-/* Stile della scritta di benvenuto -------------------------------------*/
-.welcome-message {
-    font-size: 1.5em;
-    color: #ffffff;
-    margin-top: 10px;
-    font-style: italic;
-}
-
-/* Frase di benvenuto */
+/* Stile della scritta di benvenuto */
 .welcome-message {
     font-size: 1.8em;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-    max-width: 600px;
+    color: #ffffff; /* Testo bianco */
+    margin-top: 10px;
     font-style: italic;
+    text-align: center; /* Testo centrato */
+    max-width: 80%; /* Riduce la larghezza per una migliore visualizzazione */
+    margin: 0 auto; /* Assicura che il testo sia centrato */
 }
 
 /* Bottoni in home */
