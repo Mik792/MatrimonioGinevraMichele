@@ -30,7 +30,7 @@ body {
     font-family: 'Vladimir Script', cursive;
     text-decoration: underline;
     color: #333333;
-    font-size: 13px; /* Font size 13px per la barra di navigazione */
+    font-size: 20px; /* Font size 20px per la barra di navigazione */
     padding: 8px 15px;
     background-color: #f2f2f2;
     border-radius: 20px;
