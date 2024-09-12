@@ -80,7 +80,7 @@ body {
 
 /* Stile della scritta di benvenuto */
 .welcome-message {
-    font-size: 14px; /* Font size 14px per il messaggio di benvenuto */
+    font-size: 28px; /* Font size 28px per il messaggio di benvenuto */
     color: #ffffff; /* Testo bianco */
     margin-top: 10px;
     font-style: italic;
