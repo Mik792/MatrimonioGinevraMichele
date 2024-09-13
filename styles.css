@@ -82,7 +82,7 @@ body {
 .welcome-message {
     font-family: 'Bahnschrift Light Condensed', sans-serif;
     font-size: 20px; /* Font size 20px per il messaggio di benvenuto */
-    color: #333333; /* Testo nero */
+    color: #fff; /* Testo nero */
     margin-top: 10px;
     text-align: center;
     width: 100%;
