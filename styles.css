@@ -78,12 +78,12 @@ body {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Ombra per visibilità */
 }
 
-/* Stile della scritta di benvenuto */
+/* Stile della scritta di benvenuto ---------------------------------------------------------------------------------*/
 .welcome-message {
     font-size: 28px; /* Font size 28px per il messaggio di benvenuto */
     color: #ffffff; /* Testo bianco */
     margin-top: 10px;
-    font-style: italic;
+    font-style: 'Bahnschrift Light Condensed';
     text-align: center;
     width: 100%;
 }
