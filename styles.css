@@ -32,13 +32,13 @@ body {
     color: #333333;
     font-size: 20px;
     padding: 8px 15px;
-    background-color: #f2f2f2;
+    background-color: rgba(242, 242, 242, 0.7); /* Trasparente */
     border-radius: 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar ul li a:hover {
-    background-color: #ff5c8a;
+    background-color: rgba(255, 92, 138, 0.7); /* Rosa con trasparenza */
     color: #ffffff;
 }
 
@@ -67,6 +67,11 @@ body {
     width: 80%;
     margin: 20px auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.transparent-bar:hover {
+    background-color: rgba(255, 92, 138, 0.7); /* Rosa con trasparenza quando si passa sopra */
 }
 
 /* Stile del titolo "Matrimonio di Ginevra & Michele" */
@@ -81,8 +86,8 @@ body {
 /* Stile della scritta di benvenuto */
 .welcome-message {
     font-family: 'Bahnschrift Light Condensed', sans-serif;
-    font-size: 20px; /* Font size 20px per il messaggio di benvenuto */
-    color: #fff; /* Testo nero */
+    font-size: 20px;
+    color: #fff;
     margin-top: 10px;
     text-align: center;
     width: 100%;
