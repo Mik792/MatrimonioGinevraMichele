@@ -57,9 +57,9 @@ body {
     background-color: #f2f2f2;
 }
 
-/* Barra scura e trasparente con la scritta principale */
+/* Barra rosa e trasparente con la scritta principale */
 .transparent-bar {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 92, 138, 0.7); /* Rosa trasparente */
     color: #ffe6ff;
     padding: 20px;
     border-radius: 10px;
@@ -67,11 +67,6 @@ body {
     width: 80%;
     margin: 20px auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;
-}
-
-.transparent-bar:hover {
-    background-color: rgba(255, 92, 138, 0.7); /* Rosa con trasparenza quando si passa sopra */
 }
 
 /* Stile del titolo "Matrimonio di Ginevra & Michele" */
