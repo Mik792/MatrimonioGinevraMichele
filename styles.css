@@ -27,7 +27,7 @@ body {
 }
 
 .navbar ul li a {
-    font-family: 'Vladimir Script', cursive;
+    font-family: 'Vladimir Script';
     text-decoration: underline;
     color: #333333;
     font-size: 20px; /* Font size 20px per la barra di navigazione */
