@@ -60,7 +60,7 @@ body {
 /* Barra scura e trasparente con la scritta principale */
 .transparent-bar {
     background-color: rgba(0, 0, 0, 0.5);
-    color: #ff5c8a;
+    color: #ffe6ff;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
