@@ -71,7 +71,7 @@ body {
 
 /* Stile del titolo "Matrimonio di Ginevra & Michele" */
 .transparent-bar h1 {
-    font-family: 'Batang', cursive;
+    font-family: 'Cambria', cursive;
     font-size: 4em;
     color: #fff;
     margin: 0;
@@ -80,7 +80,7 @@ body {
 
 /* Stile della scritta di benvenuto */
 .welcome-message {
-    font-family: 'Batang', cursive;
+    font-family: 'Cambria', cursive;
     font-size: 20px;
     color: #fff;
     margin-top: 10px;
