@@ -1,6 +1,6 @@
 /* Stile generale */
 body {
-    font-family: 'Sitka Subheading', cursive;
+    font-family: 'Lucida Calligraphy', cursive;
     background-color: #f2f2f2;
     color: #333;
     margin: 0;
@@ -27,7 +27,7 @@ body {
 }
 
 .navbar ul li a {
-    font-family: 'Sitka Subheading';
+    font-family: 'Lucida Calligraphy';
     text-decoration: underline;
     color: #333333;
     font-size: 20px;
@@ -71,7 +71,7 @@ body {
 
 /* Stile del titolo "Matrimonio di Ginevra & Michele" */
 .transparent-bar h1 {
-    font-family: 'Sitka Subheading', cursive;
+    font-family: 'Lucida Calligraphy', cursive;
     font-size: 4em;
     color: #fff;
     margin: 0;
@@ -80,7 +80,7 @@ body {
 
 /* Stile della scritta di benvenuto */
 .welcome-message {
-    font-family: 'Sitka Subheading', cursive;
+    font-family: 'Lucida Calligraphy', cursive;
     font-size: 20px;
     color: #fff;
     margin-top: 10px;
