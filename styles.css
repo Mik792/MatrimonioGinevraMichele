@@ -7,28 +7,6 @@ body {
     padding: 0;
 }
 
-/* Centro tutti gli elementi all'interno della sezione evento */
-#evento {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 800px; /* Limita la larghezza massima del contenuto */
-}
-
-#evento h2, #evento h3, #evento p {
-    text-align: center; /* Assicura che anche il testo sia centrato */
-}
-
-#countdown {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-
 /* Barra di navigazione */
 .navbar {
     background-color: #f2f2f2;
@@ -207,3 +185,26 @@ footer {
     letter-spacing: 1px;
     border-top: 2px solid #e9967a;
 }
+
+/* Sezione Evento */
+#evento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 800px; /* Limita la larghezza massima per evitare che si allarghi troppo */
+}
+
+/* Titoli e paragrafi centrati */
+#evento h2, #evento h3, #evento p {
+    text-align: center; /* Centra il testo all'interno della sezione */
+}
+
+#countdown {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
