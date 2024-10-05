@@ -189,7 +189,7 @@ footer {
 /* Sezione Evento */
 #evento {
     background: url('SfondoEvento.jpg') no-repeat center center;
-    background-size: 90%;
+    background-size: 150%;
     height: 100vh;
     display: flex;
     justify-content: center;
