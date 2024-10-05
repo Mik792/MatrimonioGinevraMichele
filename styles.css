@@ -80,8 +80,8 @@ body {
 
 /* Stile della scritta di benvenuto */
 .welcome-message {
-    font-family: 'Freestyle Script', cursive;
-    font-size: 20px;
+    font-family: 'Freestyle Script';
+    font-size: 40px;
     color: #fff;
     margin-top: 10px;
     text-align: center;
