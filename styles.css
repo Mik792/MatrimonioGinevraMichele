@@ -1,6 +1,6 @@
 /* Stile generale */
 body {
-    font-family: 'Book Antiqua', cursive;
+    font-family: 'Freestyle Script', cursive;
     background-color: #f2f2f2;
     color: #333;
     margin: 0;
@@ -80,7 +80,7 @@ body {
 
 /* Stile della scritta di benvenuto */
 .welcome-message {
-    font-family: 'Freestyle Script';
+    font-family: 'Book Antiqua'; 
     font-size: 28px;
     color: #fff;
     margin-top: 10px;
